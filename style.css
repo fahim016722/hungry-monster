@@ -1,0 +1,28 @@
+.color{background-color: rgba(184, 218, 61, 0.57);}
+
+
+.space{margin-left:500px;}
+
+.meal img{
+        width:130%;
+        height: 130%;
+        border-radius: 10px;}
+
+.meals{display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap:120px;
+      margin-top: 50px;}          
+
+.meal{
+    cursor:pointer;
+    position:relative;
+    height: 200px;
+    width: 200px;
+    text-align: center;}
+
+.meal-info{margin-top: 10px;}
+.font{font-size: 15px;
+      color: rgb(7, 0, 0);}
+      
+
+
